@@ -10,13 +10,13 @@
 #define ADC_RESULT (*(volatile uint32_t *)(ADC_BASE + ADC_RESULT_OFFSET))
 #define ADC_DIV    (*(volatile uint32_t *)(ADC_BASE + ADC_DIV_OFFSET))
 #define ADC_FCS    (*(volatile uint32_t *)(ADC_BASE + ADC_FCS_OFFSET))
-#define ADC_INTE  (*(volatile uint32_t *)(ADC_BASE + ADC_INTE_OFFSET))
+#define ADC_INTE   (*(volatile uint32_t *)(ADC_BASE + ADC_INTE_OFFSET))
 
 
 // Define bit masks for relevant fields in the ADC registers
 #define ADC_CS_EN          (1 << 0)
 #define ADC_CS_READY       (1 << 8)
 #define ADC_CS_START_ONCE  (1 << 2)
-#define ADC_CS_START_MANY (1 << 3)
+#define ADC_CS_START_MANY  (1 << 3)
 #define ADC_CS_AINSEL_SHIFT (12)
 #define ADC_CS_AINSEL_MASK  (0x7 << ADC_CS_AINSEL_SHIFT)
