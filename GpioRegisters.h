@@ -2,7 +2,7 @@
 #define GPIO16_CTRL_OFFSET (0x084)
 #define GPIO17_CTRL_OFFSET (0x08c)
 #define GPIO_OE_OFFSET (0x020)
-#define GPIO_IN_OFFSET (0x004 )
+#define GPIO_IN_OFFSET (0x004)
 
 // Accessing the ADC registers
 #define GPIO16_CTRL (*(volatile uint32_t *)(IO_BANK0_BASE + GPIO16_CTRL_OFFSET))
